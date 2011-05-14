@@ -183,7 +183,9 @@ snippet elseif
 	}
 # Tertiary conditional
 snippet t
-	$${1:retVal} = (${2:condition}) ? ${3:a} : ${4:b};${5}
+	$this->${1}
+snippet vd
+	var_dump(${1}); // <- DEBUG
 snippet switch
 	switch ($${1:variable}) {
 		case '${2:value}':
