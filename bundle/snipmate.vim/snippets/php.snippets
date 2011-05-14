@@ -228,3 +228,5 @@ snippet fun
 # $... = array (...)
 snippet array
 	$${1:arrayName} = array('${2}' => ${3});${4}
+snippet throw
+	throw new ${1}Exception("${2}", ${3:1});
